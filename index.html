@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — AirFry Delight</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Sans+3:wght@300;400;600&display=swap');
+
+  :root {
+    --orange: #E8621A;
+    --dark: #1A1410;
+    --mid: #5C4A3A;
+    --light: #FAF7F4;
+    --border: #E8DDD4;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+    background: var(--light);
+    color: var(--dark);
+    line-height: 1.8;
+  }
+
+  header {
+    background: var(--dark);
+    color: white;
+    padding: 48px 24px 36px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    color: white;
+    margin-bottom: 6px;
+  }
+
+  header .app-name {
+    color: var(--orange);
+  }
+
+  header p {
+    font-size: 0.9rem;
+    opacity: 0.6;
+    margin-top: 8px;
+  }
+
+  .lang-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .lang-toggle button {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    padding: 6px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+  }
+
+  .lang-toggle button.active,
+  .lang-toggle button:hover {
+    background: var(--orange);
+    border-color: var(--orange);
+  }
+
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+
+  .section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .section:last-child {
+    border-bottom: none;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    color: var(--orange);
+    margin-bottom: 14px;
+    font-weight: 600;
+  }
+
+  p { margin-bottom: 12px; font-size: 1rem; }
+
+  ul {
+    margin: 10px 0 12px 20px;
+  }
+
+  ul li {
+    margin-bottom: 6px;
+    font-size: 1rem;
+  }
+
+  .highlight-box {
+    background: white;
+    border-left: 3px solid var(--orange);
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+    font-size: 0.95rem;
+  }
+
+  .contact-block {
+    background: var(--dark);
+    color: white;
+    padding: 24px 28px;
+    border-radius: 12px;
+    margin-top: 16px;
+  }
+
+  .contact-block a {
+    color: var(--orange);
+    text-decoration: none;
+  }
+
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 0.8rem;
+    color: var(--mid);
+    border-top: 1px solid var(--border);
+  }
+
+  /* Language sections */
+  .ro { display: none; }
+  .en { display: block; }
+
+  body.ro-active .ro { display: block; }
+  body.ro-active .en { display: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Privacy Policy — <span class="app-name">AirFry Delight</span></h1>
+  <p>Last updated: June 2026</p>
+  <div class="lang-toggle">
+    <button class="active" onclick="setLang('en', this)">English</button>
+    <button onclick="setLang('ro', this)">Română</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ENGLISH -->
+  <div class="en">
+
+    <div class="section">
+      <h2>1. Introduction</h2>
+      <p>Welcome to <strong>AirFry Delight</strong>. This Privacy Policy explains how we collect, use, and protect your information when you use our mobile application.</p>
+      <p>By using AirFry Delight, you agree to the practices described in this policy.</p>
+      <div class="highlight-box">
+        <strong>Data Controller:</strong> Tatiana Gavrila<br>
+        <strong>Contact:</strong> <a href="mailto:airfrydelightapp@gmail.com">airfrydelightapp@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>2. Information We Collect</h2>
+      <p>AirFry Delight is a recipe app. We collect minimal data necessary to operate the app:</p>
+      <ul>
+        <li><strong>Usage data</strong> — anonymous analytics about how you interact with the app (screens viewed, features used)</li>
+        <li><strong>Device information</strong> — device type, operating system version, language preference</li>
+        <li><strong>Advertising data</strong> — through Google AdMob, advertising identifiers may be collected to serve relevant ads</li>
+        <li><strong>Favorites &amp; preferences</strong> — stored locally on your device only</li>
+      </ul>
+      <p>We do <strong>not</strong> collect your name, email address, or any personally identifiable information unless you contact us directly.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Advertising (Google AdMob)</h2>
+      <p>AirFry Delight displays advertisements provided by <strong>Google AdMob</strong>. AdMob may collect and use data including:</p>
+      <ul>
+        <li>Advertising ID (IDFA on iOS, GAID on Android)</li>
+        <li>IP address (anonymized)</li>
+        <li>General location (country/region level)</li>
+        <li>App usage and interaction data</li>
+      </ul>
+      <p>Ads are shown in the recipe feed only. <strong>No ads are shown during Cooking Mode.</strong></p>
+      <p>You can opt out of personalized advertising in your device settings: <em>Settings → Privacy → Advertising</em> (iOS) or <em>Settings → Google → Ads</em> (Android).</p>
+      <p>For more information, see <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Firebase</h2>
+      <p>We use <strong>Google Firebase</strong> for app functionality including data storage and analytics. Firebase may collect anonymous usage data to help us improve the app. Firebase data is processed in accordance with <a href="https://firebase.google.com/support/privacy" target="_blank">Google Firebase's Privacy Policy</a>.</p>
+    </div>
+
+    <div class="section">
+      <h2>5. Data Storage &amp; Security</h2>
+      <p>Your favorites and app preferences are stored <strong>locally on your device</strong> and are not transmitted to our servers.</p>
+      <p>Any data processed through Firebase or AdMob is handled by Google's secure infrastructure. We do not sell, trade, or rent your personal data to third parties.</p>
+    </div>
+
+    <div class="section">
+      <h2>6. Your Rights (GDPR)</h2>
+      <p>If you are located in the European Union or Romania, you have the following rights under GDPR:</p>
+      <ul>
+        <li>Right to access your personal data</li>
+        <li>Right to correction of inaccurate data</li>
+        <li>Right to erasure ("right to be forgotten")</li>
+        <li>Right to restrict processing</li>
+        <li>Right to data portability</li>
+        <li>Right to object to processing</li>
+      </ul>
+      <p>To exercise any of these rights, contact us at <a href="mailto:airfrydelightapp@gmail.com">airfrydelightapp@gmail.com</a>. We will respond within 30 days.</p>
+    </div>
+
+    <div class="section">
+      <h2>7. Children's Privacy</h2>
+      <p>AirFry Delight is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us immediately.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated date. Continued use of the app after changes constitutes acceptance of the new policy.</p>
+    </div>
+
+    <div class="section">
+      <h2>9. Contact Us</h2>
+      <div class="contact-block">
+        <strong>AirFry Delight — Data Controller</strong><br>
+        Tatiana Gavrila<br>
+        Romania<br><br>
+        📧 <a href="mailto:airfrydelightapp@gmail.com">airfrydelightapp@gmail.com</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ROMANIAN -->
+  <div class="ro">
+
+    <div class="section">
+      <h2>1. Introducere</h2>
+      <p>Bine ați venit la <strong>AirFry Delight</strong>. Această Politică de Confidențialitate explică modul în care colectăm, utilizăm și protejăm informațiile dumneavoastră atunci când folosiți aplicația noastră mobilă.</p>
+      <p>Prin utilizarea AirFry Delight, sunteți de acord cu practicile descrise în această politică.</p>
+      <div class="highlight-box">
+        <strong>Operator de date:</strong> Tatiana Gavrila<br>
+        <strong>Contact:</strong> <a href="mailto:airfrydelightapp@gmail.com">airfrydelightapp@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>2. Informațiile pe care le colectăm</h2>
+      <p>AirFry Delight este o aplicație de rețete. Colectăm date minime necesare pentru funcționarea aplicației:</p>
+      <ul>
+        <li><strong>Date de utilizare</strong> — analize anonime despre modul în care interacționați cu aplicația (ecrane vizualizate, funcții utilizate)</li>
+        <li><strong>Informații despre dispozitiv</strong> — tipul dispozitivului, versiunea sistemului de operare, preferința de limbă</li>
+        <li><strong>Date publicitare</strong> — prin Google AdMob, identificatorii de publicitate pot fi colectați pentru afișarea de reclame relevante</li>
+        <li><strong>Favorite și preferințe</strong> — stocate local pe dispozitivul dumneavoastră</li>
+      </ul>
+      <p>Nu colectăm numele, adresa de e-mail sau alte informații de identificare personală dacă nu ne contactați direct.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Publicitate (Google AdMob)</h2>
+      <p>AirFry Delight afișează reclame furnizate de <strong>Google AdMob</strong>. AdMob poate colecta și utiliza date precum:</p>
+      <ul>
+        <li>ID publicitar (IDFA pe iOS, GAID pe Android)</li>
+        <li>Adresă IP (anonimizată)</li>
+        <li>Locație generală (la nivel de țară/regiune)</li>
+        <li>Date de utilizare a aplicației</li>
+      </ul>
+      <p>Reclamele sunt afișate doar în lista de rețete. <strong>Nu se afișează reclame în Modul de Gătit.</strong></p>
+      <p>Puteți renunța la publicitatea personalizată din setările dispozitivului: <em>Setări → Confidențialitate → Publicitate</em> (iOS) sau <em>Setări → Google → Reclame</em> (Android).</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Firebase</h2>
+      <p>Utilizăm <strong>Google Firebase</strong> pentru funcționalitatea aplicației, inclusiv stocarea datelor și analize. Firebase poate colecta date anonime de utilizare pentru a ne ajuta să îmbunătățim aplicația.</p>
+    </div>
+
+    <div class="section">
+      <h2>5. Stocarea și securitatea datelor</h2>
+      <p>Favoritele și preferințele aplicației sunt stocate <strong>local pe dispozitivul dumneavoastră</strong> și nu sunt transmise serverelor noastre.</p>
+      <p>Nu vindem, nu comercializăm și nu închiriem datele dumneavoastră personale către terți.</p>
+    </div>
+
+    <div class="section">
+      <h2>6. Drepturile dumneavoastră (GDPR)</h2>
+      <p>Dacă vă aflați în Uniunea Europeană sau în România, aveți următoarele drepturi conform GDPR:</p>
+      <ul>
+        <li>Dreptul de acces la datele personale</li>
+        <li>Dreptul la rectificarea datelor inexacte</li>
+        <li>Dreptul la ștergere („dreptul de a fi uitat")</li>
+        <li>Dreptul la restricționarea prelucrării</li>
+        <li>Dreptul la portabilitatea datelor</li>
+        <li>Dreptul de a vă opune prelucrării</li>
+      </ul>
+      <p>Pentru a vă exercita oricare dintre aceste drepturi, contactați-ne la <a href="mailto:airfrydelightapp@gmail.com">airfrydelightapp@gmail.com</a>. Vom răspunde în termen de 30 de zile.</p>
+    </div>
+
+    <div class="section">
+      <h2>7. Confidențialitatea copiilor</h2>
+      <p>AirFry Delight nu se adresează copiilor cu vârsta sub 13 ani. Nu colectăm în mod intenționat informații personale de la copii. Dacă credeți că un copil ne-a furnizat informații personale, vă rugăm să ne contactați imediat.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. Modificări ale acestei politici</h2>
+      <p>Putem actualiza această Politică de Confidențialitate periodic. Orice modificări vor fi publicate pe această pagină cu o dată actualizată.</p>
+    </div>
+
+    <div class="section">
+      <h2>9. Contactați-ne</h2>
+      <div class="contact-block">
+        <strong>AirFry Delight — Operator de date</strong><br>
+        Tatiana Gavrila<br>
+        România<br><br>
+        📧 <a href="mailto:airfrydelightapp@gmail.com">airfrydelightapp@gmail.com</a>
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
+<footer>
+  © 2026 AirFry Delight · Tatiana Gavrila · Romania
+</footer>
+
+<script>
+  function setLang(lang, btn) {
+    document.body.className = lang === 'ro' ? 'ro-active' : '';
+    document.querySelectorAll('.lang-toggle button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  }
+</script>
+
+</body>
+</html>
