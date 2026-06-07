@@ -1,2 +1,2 @@
-# airfrydelight-privacy
-airfrydelight-recepies
+# airfrybuddy-privacy
+airfrybuddy-recepies
